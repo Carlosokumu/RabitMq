@@ -97,3 +97,22 @@ log.Printf(" [x] Sent %s\n", body)
 ```
 ##### Receiving
  Our consumer listens for messages from RabbitMQ, so unlike the sender which publishes a single message, we'll keep the consumer(receiver) running to listen for messages and print them out.
+ So in our `receiver.go` we have:
+ 
+ ```
+package main
+
+import (
+  "log"
+
+  amqp "github.com/rabbitmq/amqp091-go"
+)
+
+func failOnError(err error, msg string) {
+  if err != nil {
+    log.Panicf("%s: %s", msg, err)
+  }
+}
+```
+
+The file actually has the same imports as `send.go`
