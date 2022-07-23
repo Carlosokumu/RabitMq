@@ -67,3 +67,28 @@ The connection abstracts the socket connection, and takes care of protocol versi
 
 ```
 To send, we must declare a queue for us to send to; then we can publish a message to the queue:
+
+```
+q, err := ch.QueueDeclare(
+  "hello", // name
+  false,   // durable
+  false,   // delete when unused
+  false,   // exclusive
+  false,   // no-wait
+  nil,     // arguments
+)
+
+failOnError(err, "Failed to declare a queue")
+body := "Hello World!"
+err = ch.Publish(
+  "",     // exchange
+  q.Name, // routing key
+  false,  // mandatory
+  false,  // immediate
+  amqp.Publishing {
+    ContentType: "text/plain",
+    Body:        []byte(body),
+  })
+failOnError(err, "Failed to publish a message")
+log.Printf(" [x] Sent %s\n", body)
+```
