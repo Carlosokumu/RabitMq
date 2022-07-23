@@ -117,7 +117,7 @@ func failOnError(err error, msg string) {
 
 The file actually has the same imports as `send.go`
 
-Setting up is the same as the sender; we open a connection and a channel, and declare the queue from which we're going to consume. Note this matches up with the queue that send publishes to
+Setting up is the same as the sender; we open a connection and a channel, and declare the queue from which we're going to consume. Note this matches up with the queue that sender publishes to
 
  ```
 conn, err := amqp.Dial("amqp://guest:guest@localhost:5672/")
