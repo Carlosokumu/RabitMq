@@ -166,7 +166,7 @@ log.Printf(" [*] Waiting for messages. To exit press CTRL+C")
 <-forever
 
 ```
-##### Putting it all together
+### Putting it all together
 To run the sender, `go run sender.go`
 
 To run the consumer,`go run receiver.go`
