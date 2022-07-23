@@ -21,6 +21,6 @@ and print it.
 
 In the diagram below, "P" is our producer and "C" is our consumer. The box in the middle is a queue - a message buffer that RabbitMQ keeps on behalf of the consumer.
 
-![RabbitMq](https://myoctocat.com/assets/images/base-octocat.svg)
+![RabbitMq](https://github.com/Carlosokumu/RabitMq/blob/master/images/python-one.png)
 
 
