@@ -96,3 +96,4 @@ log.Printf(" [x] Sent %s\n", body)
 
 ```
 ##### Receiving
+ Our consumer listens for messages from RabbitMQ, so unlike the sender which publishes a single message, we'll keep the consumer(receiver) running to listen for messages and print them out.
