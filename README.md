@@ -79,6 +79,8 @@ q, err := ch.QueueDeclare(
 )
 
 failOnError(err, "Failed to declare a queue")
+
+
 body := "Hello World!"
 err = ch.Publish(
   "",     // exchange
@@ -91,4 +93,5 @@ err = ch.Publish(
   })
 failOnError(err, "Failed to publish a message")
 log.Printf(" [x] Sent %s\n", body)
+
 ```
