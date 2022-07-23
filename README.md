@@ -14,3 +14,9 @@ RabbitMq is made up of the following components:
 ### Prerequisites
 RabbitMq installed.U can install it from [here](https://www.rabbitmq.com/download.html)
 
+### What we will do
+
+We will write two simple go programs,one is a producer-a program that will send a message,and the other is a consumer program,one that will receive the message 
+and print it.
+
+
