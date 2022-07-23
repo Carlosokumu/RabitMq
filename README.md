@@ -167,7 +167,7 @@ log.Printf(" [*] Waiting for messages. To exit press CTRL+C")
 
 ```
 ##### Putting it all together
-To run the sender,run go  sender.go
+To run the sender, `go run sender.go`
 
-To run the consumer,run go run receiver.go
+To run the consumer,`go run receiver.go`
 
