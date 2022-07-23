@@ -66,3 +66,4 @@ The connection abstracts the socket connection, and takes care of protocol versi
  defer ch.Close()
 
 ```
+To send, we must declare a queue for us to send to; then we can publish a message to the queue:
