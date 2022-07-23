@@ -43,4 +43,11 @@ import (
 ```
 We also need a helper function to check the return value for each amqp connection call:
 
+```
+func failOnError(err error, msg string) {
+  if err != nil {
+    log.Panicf("%s: %s", msg, err)
+  }
+}
+```
 
