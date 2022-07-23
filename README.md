@@ -31,5 +31,11 @@ So go ahead and install it:
 
 ##### Sending
  Our sender will be in send.go file.The sender will connect to RabbitMQ,send a single message, then exit.
+ 
+ ```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
 
 
