@@ -23,4 +23,9 @@ In the diagram below, "P" is our producer and "C" is our consumer. The box in th
 
 ![RabbitMq](https://github.com/Carlosokumu/RabitMq/blob/master/images/python-one.png)
 
+#### The Go RabbitMQ client library
+
+
+`git status`
+
 
