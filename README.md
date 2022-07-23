@@ -24,8 +24,9 @@ In the diagram below, "P" is our producer and "C" is our consumer. The box in th
 ![RabbitMq](https://github.com/Carlosokumu/RabitMq/blob/master/images/python-one.png)
 
 #### The Go RabbitMQ client library
+There are a number of clients for RabbitMQ in many different languages. We'll use the Go amqp client in this tutorial.
+So go ahead and install it:
 
-
-`git status`
+`go get github.com/rabbitmq/amqp091-go`
 
 
