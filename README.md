@@ -19,4 +19,8 @@ RabbitMq installed.U can install it from [here](https://www.rabbitmq.com/downloa
 We will write two simple go programs,one is a producer-a program that will send a message,and the other is a consumer program,one that will receive the message 
 and print it.
 
+In the diagram below, "P" is our producer and "C" is our consumer. The box in the middle is a queue - a message buffer that RabbitMQ keeps on behalf of the consumer.
+
+![RabbitMq](https://myoctocat.com/assets/images/base-octocat.svg)
+
 
