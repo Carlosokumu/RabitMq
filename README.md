@@ -95,3 +95,4 @@ failOnError(err, "Failed to publish a message")
 log.Printf(" [x] Sent %s\n", body)
 
 ```
+##### Receiving
