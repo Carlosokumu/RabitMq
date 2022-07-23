@@ -12,7 +12,7 @@ RabbitMq is made up of the following components:
 - Consumer -A consumer is just simply a program that mostly waits to receive messages
 
 ### Prerequisites
-RabbitMq installed.U can install it from [here](https://www.rabbitmq.com/download.html)
+U will need RabbitMq installed on your machine.U can install it from [here](https://www.rabbitmq.com/download.html)
 
 ### What we will do
 
