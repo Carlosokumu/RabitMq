@@ -30,5 +30,6 @@ So go ahead and install it:
 `go get github.com/rabbitmq/amqp091-go`
 
 ##### Sending
+ Our sender will be in send.go file.The sender will connect to RabbitMQ,send a single message, then exit.
 
 
